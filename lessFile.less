@@ -1,0 +1,28 @@
+@myBlue: #5B83AD;
+@light-blue: @myBlue + #111;
+
+h1 {
+	color : @myBlue;
+}
+
+.textStyle {
+	color : @light-blue;
+	font-style : italic;
+}
+
+#text {
+	.textStyle;
+}
+
+#name {
+	.textStyle;
+	font-weight : 5pt;
+}
+
+a {
+	color : @myBlue;
+
+	&:hover {
+		color : saturate(@light-blue, 10%);
+	}
+}

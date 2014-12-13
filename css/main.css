@@ -1,0 +1,22 @@
+h1 {
+  color: #5b83ad;
+}
+.textStyle {
+  color: #6c94be;
+  font-style: italic;
+}
+#text {
+  color: #6c94be;
+  font-style: italic;
+}
+#name {
+  color: #6c94be;
+  font-style: italic;
+  font-weight: 5pt;
+}
+a {
+  color: #5b83ad;
+}
+a:hover {
+  color: #6194c9;
+}
